@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom" aria-label="Main navigation">
     <div class="container">
@@ -51,7 +52,7 @@
               <span>Typography</span>
               <span>Color</span>
               <span>Layout</span>
-              <span>Icons</span>
+              <span>Charts</span>
             </div>
           </div>
         </div>
@@ -80,137 +81,138 @@
       </div>
     </section>
 
-```
-<section id="process" class="section-padding bg-soft">
-  <div class="container">
-    <div class="row g-5 align-items-center">
-      <div class="col-lg-5">
-        <p class="eyebrow">How I work</p>
-        <h2 class="section-title">My current design workflow</h2>
-        <p>I am still learning UI design, so my workflow is simple and course-based. I start by understanding the goal of the page, then I plan the structure, choose a consistent visual style, build the interface, and review it for clarity.</p>
+    <section id="process" class="section-padding bg-soft">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <p class="eyebrow">How I work</p>
+            <h2 class="section-title">My current design workflow</h2>
+            <p>I am still learning UI design, so my workflow is simple and course-based. I start by understanding the goal of the page, then I plan the structure, choose a consistent visual style, build the interface, and review it for clarity.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <article class="process-card h-100">
+                  <div class="icon-circle" aria-hidden="true">1</div>
+                  <h3 class="h5 fw-bold">Understand the goal</h3>
+                  <p>Identify the message of the page and what the user should notice first.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="process-card h-100">
+                  <div class="icon-circle" aria-hidden="true">2</div>
+                  <h3 class="h5 fw-bold">Plan the structure</h3>
+                  <p>Organize information into clear sections using hierarchy and grouping.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="process-card h-100">
+                  <div class="icon-circle" aria-hidden="true">3</div>
+                  <h3 class="h5 fw-bold">Build with consistency</h3>
+                  <p>Use Bootstrap, repeated spacing, repeated card styles, and a limited palette.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="process-card h-100">
+                  <div class="icon-circle" aria-hidden="true">4</div>
+                  <h3 class="h5 fw-bold">Review and improve</h3>
+                  <p>Check readability, contrast, balance, and whether each visual choice supports the content.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-7">
-        <div class="row g-3">
-          <div class="col-md-6">
-            <article class="process-card h-100">
-              <div class="icon-circle" aria-hidden="true">1</div>
-              <h3 class="h5 fw-bold">Understand the goal</h3>
-              <p>Identify the message of the page and what the user should notice first.</p>
+    </section>
+
+    <section id="case-studies" class="section-padding">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between gap-3 align-items-lg-end mb-4">
+          <div>
+            <p class="eyebrow">My work</p>
+            <h2 class="section-title mb-0">Case studies and completed projects</h2>
+          </div>
+          <p class="text-muted mb-0 max-width-small">These case studies link to my service site, memory game, e-commerce site, and bilingual analytics dashboard created throughout the semester.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <article class="case-card h-100">
+              <div class="case-visual service-visual" aria-hidden="true">
+                <span class="visual-icon">+</span>
+              </div>
+              <div class="case-content">
+                <span class="case-tag">Design 1</span>
+                <h3 class="h5 fw-bold">Lumière Nail Studio</h3>
+                <p>A service website prototype for a nail salon, including service information, booking support, and contact details.</p>
+                <a href="https://gleaming-empanada-7e7003.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open service site</a>
+              </div>
             </article>
           </div>
-          <div class="col-md-6">
-            <article class="process-card h-100">
-              <div class="icon-circle" aria-hidden="true">2</div>
-              <h3 class="h5 fw-bold">Plan the structure</h3>
-              <p>Organize information into clear sections using hierarchy and grouping.</p>
+
+          <div class="col-md-6 col-xl-3">
+            <article class="case-card h-100">
+              <div class="case-visual memory-visual" aria-hidden="true">
+                <span class="visual-icon">□</span><span class="visual-icon">□</span>
+              </div>
+              <div class="case-content">
+                <span class="case-tag">Design 2</span>
+                <h3 class="h5 fw-bold">GlowMatch Memory Game</h3>
+                <p>An interactive memory game where users choose a level and theme, flip cards, match pairs, and track their progress.</p>
+                <a href="https://seg3125-memorygame-carla.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open memory game</a>
+              </div>
             </article>
           </div>
-          <div class="col-md-6">
-            <article class="process-card h-100">
-              <div class="icon-circle" aria-hidden="true">3</div>
-              <h3 class="h5 fw-bold">Build with consistency</h3>
-              <p>Use Bootstrap, repeated spacing, repeated card styles, and a limited palette.</p>
+
+          <div class="col-md-6 col-xl-3">
+            <article class="case-card h-100">
+              <div class="case-visual ecommerce-visual" aria-hidden="true">
+                <span class="visual-icon">$</span>
+              </div>
+              <div class="case-content">
+                <span class="case-tag">Design 3</span>
+                <h3 class="h5 fw-bold">Belle & Bloom</h3>
+                <p>A women’s clothing and beauty e-commerce prototype with faceted search, cart, checkout, and survey features.</p>
+                <a href="https://adorable-sunflower-9b1692.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open e-commerce site</a>
+              </div>
             </article>
           </div>
-          <div class="col-md-6">
-            <article class="process-card h-100">
-              <div class="icon-circle" aria-hidden="true">4</div>
-              <h3 class="h5 fw-bold">Review and improve</h3>
-              <p>Check readability, contrast, balance, and whether each visual choice supports the content.</p>
+
+          <div class="col-md-6 col-xl-3">
+            <article class="case-card h-100">
+              <div class="case-visual analytics-visual" aria-hidden="true">
+                <span class="bar one"></span><span class="bar two"></span><span class="bar three"></span>
+              </div>
+              <div class="case-content">
+                <span class="case-tag">Design 4</span>
+                <h3 class="h5 fw-bold">Belle & Bloom Dashboard</h3>
+                <p>A bilingual interactive analytics dashboard using line and bar charts to explore synthetic sales, revenue, and category performance data.</p>
+                <a href="https://seg3125-analyticsdashboard-carla.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open dashboard</a>
+              </div>
             </article>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section id="case-studies" class="section-padding">
-  <div class="container">
-    <div class="d-flex flex-column flex-lg-row justify-content-between gap-3 align-items-lg-end mb-4">
-      <div>
-        <p class="eyebrow">My work</p>
-        <h2 class="section-title mb-0">Case studies and upcoming projects</h2>
+    <section id="contact" class="section-padding bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <p class="eyebrow text-accent">Contact</p>
+            <h2 class="section-title text-white mb-3">Thank you for visiting my portfolio.</h2>
+            <p class="lead mb-3">This page brings together the prototypes and reflections I created throughout the semester.</p>
+            <p class="mb-0">
+              Email:
+              <a href="mailto:carla.hajjali@gmail.com" class="text-white fw-semibold">carla.hajjali@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="#top" class="btn btn-light btn-lg">Back to top</a>
+          </div>
+        </div>
       </div>
-      <p class="text-muted mb-0 max-width-small">The first case study links to my Assignment 2 service site, and the second case study links to my Assignment 3 memory game. The other cards will become links to future assignments during the semester.</p>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-6 col-xl-3">
-        <article class="case-card h-100">
-          <div class="case-visual service-visual" aria-hidden="true">
-            <span class="visual-icon">+</span>
-          </div>
-          <div class="case-content">
-            <span class="case-tag">Design 1</span>
-            <h3 class="h5 fw-bold">Lumière Nail Studio</h3>
-            <p>A service website prototype for a nail salon, including service information, booking support, and contact details.</p>
-            <a href="https://gleaming-empanada-7e7003.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open service site</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-md-6 col-xl-3">
-        <article class="case-card h-100">
-          <div class="case-visual memory-visual" aria-hidden="true">
-            <span class="visual-icon">□</span><span class="visual-icon">□</span>
-          </div>
-          <div class="case-content">
-            <span class="case-tag">Design 2</span>
-            <h3 class="h5 fw-bold">GlowMatch Memory Game</h3>
-            <p>An interactive memory game where users choose a level and theme, flip cards, match pairs, and track their progress.</p>
-            <a href="https://seg3125-memorygame-carla.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open memory game</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-md-6 col-xl-3">
-        <article class="case-card h-100">
-          <div class="case-visual ecommerce-visual" aria-hidden="true">
-            <span class="visual-icon">$</span>
-          </div>
-          <div class="case-content">
-            <span class="case-tag">Design 3</span>
-            <h3 class="h5 fw-bold">Belle & Bloom</h3>
-<p>A women’s clothing and beauty e-commerce prototype with faceted search, cart, checkout, and survey features.</p>
-<a href="https://adorable-sunflower-9b1692.netlify.app" target="_blank" rel="noopener" class="stretched-link">Open e-commerce site</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-md-6 col-xl-3">
-        <article class="case-card h-100">
-          <div class="case-visual analytics-visual" aria-hidden="true">
-            <span class="bar one"></span><span class="bar two"></span><span class="bar three"></span>
-          </div>
-          <div class="case-content">
-            <span class="case-tag">Design 4</span>
-            <h3 class="h5 fw-bold">Analytics site</h3>
-            <p>A future dashboard using charts and data visualization to support decisions.</p>
-            <a href="analytics.html" class="stretched-link">Open placeholder</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="section-padding bg-dark text-white">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <div class="col-lg-8">
-        <p class="eyebrow text-accent">Contact</p>
-        <h2 class="section-title text-white mb-3">Thank you for visiting my portfolio.</h2>
-        <p class="lead mb-3">This page will grow throughout the semester as I add new assignments, prototypes, and reflections.</p>
-        <p class="mb-0">
-          Email:
-          <a href="mailto:carla.hajjali@gmail.com" class="text-white fw-semibold">carla.hajjali@gmail.com</a>
-        </p>
-      </div>
-      <div class="col-lg-4 text-lg-end">
-        <a href="#top" class="btn btn-light btn-lg">Back to top</a>
-      </div>
-    </div>
-  </div>
-</section>
-```
-
+    </section>
   </main>
 
   <footer class="py-4 border-top">
@@ -221,8 +223,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
   <script src="script.js"></script>
-
 </body>
 </html>
